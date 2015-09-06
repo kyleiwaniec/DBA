@@ -1,0 +1,1 @@
+Redirect /getShortToken.php https://www.facebook.com/dialog/oauth?client_id= 410673045631919&redirect_uri=http://downtownbordentown.com/&scope=email,read_stream,offline_access&response_type=token

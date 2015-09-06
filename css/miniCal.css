@@ -1,0 +1,227 @@
+/* 
+    Document   : styles
+    Created on : Feb 27, 2012, 5:47:41 PM
+    Author     : kylehamilton
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body, html{
+    margin:0;
+    padding:0;
+    background: #ffffff;
+}
+.wrapper{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ece9e0', endColorstr='#ffffff', GradientType=0 );
+/*    background: #ece9e0;*/
+background: -moz-linear-gradient(top, #ece9e0 0%, #ffffff 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ece9e0), color-stop(100%,#ffffff));
+background: -webkit-linear-gradient(top, #ece9e0 0%,#ffffff 100%);
+background: -o-linear-gradient(top, #ece9e0 0%,#ffffff 100%);
+background: -ms-linear-gradient(top, #ece9e0 0%,#ffffff 100%);
+background: linear-gradient(top, #ece9e0 0%,#ffffff 100%);
+
+}
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+/* mini calendar */
+.miniCalendarBg{background-color:white; padding:5px 0; width: 175px; margin:0 auto;}
+.ie7 .miniCalendarBg{padding:15px;}
+.ie8 .miniCalendarBg, .ie9 .miniCalendarBg{padding:5px 0;}
+.miniCalendar *{
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.miniCalendar{
+	overflow:hiddden;
+	width: 173px;
+        margin: 0 auto;
+        border: 1px solid lightGrey;
+        background-color: white;
+        padding: 6px 0;
+        position:relative;
+        font-family:verdana, sans-serif;
+        color:#444444;
+        font-size: 9px;
+}
+
+/*#monthdropdown div{
+	float:left;
+	width:10%;
+}
+
+#monthdropdown div + div{
+	float:left;
+	width:79%;
+}
+#monthdropdown div + div + div{
+	float:left;
+	width:10%;
+}*/
+#month{
+	text-align:center;
+}	
+#nextMonth{
+	text-align: right;
+	}
+	
+#nextMonth span, #prevMonth span{
+	cursor:pointer;
+	border:1px solid #eeeeee;
+	font-family: helvetica;
+	padding: 0 10px 3px 10px;
+	width:30px;
+	font-size:24px;
+	color:#aaaaaa;
+	border-radius:3px;
+	/* gradient */
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+	background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+       
+}
+.ie #nextMonth span, .ie #prevMonth span {
+    background-color: #eeeeee;
+
+}
+.ie9 #nextMonth span, .ie9 #prevMonth span{
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YxZjFmMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2UxZTFlMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNmY2ZjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    filter: none;
+}
+#nextMonth span:hover, #prevMonth span:hover{
+	color:black;
+}
+
+
+.clear, .miniCalendar div{
+    clear:both;
+}
+
+.month{
+    width:100%;
+}
+.choosemonth, .chooseyear{
+	padding:0 0 0 5px;
+	border:1px solid #cccccc;
+        line-height:20px;
+	height:25px;
+	width:150px;
+	font-size:14px;
+	color:gray;
+	-webkit-appearance: none; 
+	border-radius:3px;
+	background:url(ddArr.png) right top no-repeat;
+}
+.chooseyear{
+    width:75px !important;
+}
+.choosemonth option, .chooseyear option{
+    padding:3px; /* only works in FF */
+    
+}
+
+
+.month{
+    text-align:center;
+    font-size: 12px;
+}
+
+.miniCalendar .dayOfWeek, .miniCalendar .days{
+    width: 161px;
+    margin: 0 auto;
+}
+.ie7 .miniCalendar .days{
+    width:169px;
+}
+.miniCalendar .days span, .miniCalendar .dayOfWeek span{
+    display:block;
+    float:left;
+    width:23px;
+    height:23px;
+    line-height:23px;
+    text-align:center;
+    /* border:1px solid lightgrey; */
+}
+
+.ie7 .dayOfWeek span{
+    padding-top:0 !important;
+    height:25px !important;
+}
+.days p{
+    line-height: 12px;
+    padding: 5px;
+    margin: 0;
+    
+}
+.top{
+    border-top:1px solid lightgrey;
+}
+.day_0{
+    border-left:1px solid lightgrey;
+}
+.week_num_0 span{
+    border-top:1px solid lightgrey;
+}
+.day_0, .day_1, .day_2, .day_3, .day_4,  .day_5{
+    border-right:1px solid lightgrey;
+    border-bottom:1px solid lightgrey;
+}
+.day_6{
+    border-bottom:1px solid lightgrey;
+    border-right: 1px solid lightGrey;
+}
+.day_0, .day_6{
+    background-color:#ece9e0; /* weekends */
+}
+
+
+.num{
+/*    position:absolute;*/
+    color:#aaaaaa;
+    width:20px !important;
+    height:20px !important;
+    border-right:1px solid #eeeeee;
+    border-bottom:1px solid #eeeeee;
+    text-align:center !important;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.activeDay{
+    background-color:#bd1e3f !important;
+    color:white !important;
+    cursor:pointer;
+}
+.today{
+    background-color:#f9ffe1 !important;
+/*    outline:3px solid #e4ea9a  !important;
+    outline-offset: -3px;
+    color:white !important;*/
+}
+.ie .today, .ie9 .today{
+    outline:0 !important;
+    background-color:#eeefdd !important;
+}
+.eventTitle{
+    font-size:11px;
+/*    border-left:10px solid #a0b2ba;*/
+    margin-top:3px !important;
+
+}
+.eventTitle.dba{
+
+    border-left:10px solid #BC1F40;
+}
+.eventTitle.member{
+    border-left:10px solid #6b727b;
+}
+/* end big calendar */

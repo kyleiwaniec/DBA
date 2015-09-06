@@ -1,0 +1,71 @@
+@import 'fonts/ArchiveRoundhandScript/ArchiveRoundhandScript.css';
+@import 'fonts/Sorts-Mill-Goudy/stylesheet.css';
+@import 'fonts/FranklinGothic/stylesheet.css';
+
+body, html{margin:0; padding:0;}
+#nav { position: relative; margin:0 !important;}
+    #nav li { float: left; list-style: none}
+    #nav a { margin: 5px; padding: 3px 5px; text-decoration: none }
+    #nav li.activeSlide a { color: black }
+    #nav a:focus { outline: none; }
+
+    #next, #prev{
+        cursor:pointer;
+        z-index: 998;
+        top:300px;
+        width:55px;
+        height:110px;
+        position:absolute;
+    }
+
+    #next{
+        right:0;
+        background:url(../images/tour/tour-arrs.png) 0 0 no-repeat;
+    }
+/*    .ie7 #next{
+        right:-55px;
+        background:url(../images/tour/tour-arrs-rev.png) 0 -220px no-repeat;
+    }
+    .ie7 #next:hover{
+        background-position:0 -330px;
+    }*/
+    #next:hover{
+        background-position:0 -110px;
+    }
+    #prev{
+        left:0;
+        background:url(../images/tour/tour-arrs.png) 0 -220px no-repeat;
+    }
+/*    .ie7 #prev{
+        left:-55px;
+        background:url(../images/tour/tour-arrs-rev.png) 0 0 no-repeat;
+    }
+    .ie7 #prev:hover{
+        background-position:0 -110px;
+    }*/
+    #prev:hover{
+        background-position:0 -330px;
+    }
+    .arrows{
+/*        position:relative;*/
+        width:950px;
+        text-align:center;
+        margin:0 auto;
+    }
+    #slideshow{
+        margin:0 auto;
+/*        border: 1px solid #DEDEDE;*/
+    }
+    #slideshow div{
+        font-family: verdana;
+        font-size:12px;
+        color:#666;
+        height:637px;
+        padding:45px 50px 0px 50px;
+        width:848px;
+        text-align: center;
+        
+}
+    #slideshow div img{
+        max-height: 600px;
+    }

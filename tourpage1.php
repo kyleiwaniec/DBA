@@ -1,0 +1,11 @@
+
+<div class="borderBox guided-tour colcount2">
+                  
+                <p>  In 1682 Thomas Farnsworth, an English Quaker, moved upriver from Burlington, to make a new home for himself and family on a wind-swept bluff overlooking a broad bend of the Delaware. The area was not entirely a wilderness but it was still new land. Englishman and Quakers had farms located every few miles; but to visit them was to traverse pathless forests mostly frequented by Native American and wildlife. About twenty-three families were settled in the area along Black's Creek near Columbus and at Chesterfield. 
+Farnsworth's Landing, located at the junction of Crosswicks Creek and the Delaware became the center of trade for the region. Joseph Borden, arrived on the scene in 1717. By 1724 he had acquired nearly the entire site of what is now Bordentown City.
+	Enterprising, progressive, and liberal, Borden (1687-1765), envisioned great things for his Town. By May 1740, he had a line of stage wagons and boats between New York and Philadelphia. Development, however, continued at a slow pace. "Trent's Town", established in 1714, by William Trent and a nearby rival to "Borden's Towne" grew to one hundred houses by 1748. Even this modest growth surpassed "Borden's Towne" sixty houses and equaled older Burlington's development.
+	As the colonies population increased, Bordentown's crossroads location attracted many influential visitors as they traveled between New York and Philadelphia. Some became permanent residents, others maintained summer homes cooled by the breezes off the Delaware. The town was not a bystander in the American Revolution. Francis Hopkinson, artist, poet, statesman and signer of the Declaration of Independence, lived at 101 Farnsworth Ave., and his son at 63 Park Street. Colonel Kirkbride and his friend Thomas Paine along with Joseph Borden 11 and Colonel Hoagland were also active in the war for independence. After the "Battle of the Kegs" in 1778, the British plundered the town and burned many homes including the entire block from Park Street to the River, west of Farnsworth. 
+                </p>
+</div>
+<div class="center" style="text-align: center; margin-top:-50px;"><img src="events/images/crier.png"/></div>
+

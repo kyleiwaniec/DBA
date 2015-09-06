@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^visitbordentown\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.visitbordentown\.com$
+RewriteRule ^(.*)$ "http\:\/\/downtownbordentown\.com\/$1" [R=301,L]
+

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7 ]> <html class="ie6 nojs" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7 nojs" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8 nojs" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="nojs"> <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8">
+        <title>DBA design comps - graphic design and technology services - copy &amp; paste generation</title>
+
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+
+
+
+
+        <link rel="stylesheet" href="style.css"/>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+
+        <script>
+            $(function(){
+    
+                $("html").removeClass("nojs");
+                $('#slideshow').cycle({ 
+                    fx:     'fade', 
+                   
+                    speed:   500, 
+                    timeout: 0, 
+                    pager:  '#nav', 
+                    startingSlide: 1,
+                    before: function() {  
+                        $('#caption').html(this.alt); 
+                    } 
+                }); 
+    
+            });
+        </script>
+        <style>
+            body, html{
+                margin:0;
+                padding:0;
+                background-color: #ffffff;
+            }
+            #nav, #caption{
+                clear:both;
+                margin-top:20px;
+            }
+            #nav a{
+                background-color:#eeeeee;
+                font-family: helvetica, sans-serif;
+                padding:10px;
+                margin-left:5px;
+                border:1px solid #cccccc;
+            }
+            .activeSlide{
+                background-color:#bd1e3f !important;
+                color:white !important;
+                text-decoration: none;
+            }
+        </style>
+
+
+    </head>
+
+    <body>
+
+
+        <div id="wrapper">
+            
+            <div id="nav"></div>
+            <div id="caption"></div>
+            <div id="slideshow" class="pics">
+
+
+
+                <img src="images/dba-home4.jpg" alt="Design 4" />
+                <img src="images/dba-home-alt-2.jpg" alt="Alternate Home Page" />
+                <img src="images/dba-events.jpg" alt="Events" />
+                <img src="images/dba-calendar.jpg" alt="Calendar" />
+                <img src="images/dba-visit-cover.jpg" alt="Tour" />
+                <img src="images/dba-visit-pg1.jpg" alt="Tour" />
+               
+            </div>
+
+
+
+
+        </div><!-- #wrapper -->
+
+
+    </body>
+</html>

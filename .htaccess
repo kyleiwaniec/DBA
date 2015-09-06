@@ -1,0 +1,68 @@
+DirectoryIndex index.php
+ErrorDocument 404 /404.php
+
+Options -Indexes
+
+RewriteEngine on
+
+#RewriteRule redirect.php http://downtownbordentown.com/admin/edit-event.php [R=303]
+
+RewriteRule redirect.php http://downtownbordentown.com/admin/events-list.php [R=303]
+RewriteRule redirect-member.php http://downtownbordentown.com/admin/members-list.php [R=303]
+RewriteRule redirect-form.php http://downtownbordentown.com/admin/add-new-form.php [R=303]
+
+
+
+suPHP_ConfigPath /home2/downtoz0/public_html/cgi-bin/
+#<IfModule mod_php5.c>
+#php_value include_path ".:/home2/downtoz0/public_html/includes"
+#</IfModule>
+
+# ----------------------------------------------------------------------
+# Proper MIME type for all files
+# ----------------------------------------------------------------------
+
+# audio
+
+AddType audio/mpeg mp3
+AddType audio/mp4 m4a
+AddType audio/mp4a-latm m4a
+AddType audio/ogg ogg
+AddType audio/ogg oga
+AddType audio/webm webma
+AddType audio/wav wav
+
+# video
+
+AddType video/mp4 mp4
+AddType video/mp4 m4v
+AddType video/ogg ogv
+AddType video/webm webm
+AddType video/webm webmv
+
+# Proper svg serving. Required for svg webfonts on iPad
+#   twitter.com/FontSquirrel/status/14855840545
+AddType     image/svg+xml              svg svgz 
+AddEncoding gzip                       svgz
+                                       
+# webfonts                             
+AddType application/vnd.ms-fontobject  eot
+AddType font/truetype                  ttf
+AddType font/opentype                  otf
+AddType application/x-font-woff        woff
+
+# assorted types                                      
+AddType image/x-icon                   ico cur
+AddType image/webp                     webp
+AddType text/cache-manifest            appcache manifest
+AddType text/x-component               htc
+AddType application/x-chrome-extension crx
+AddType application/x-xpinstall        xpi
+AddType application/octet-stream       safariextz
+
+# cache control
+# 172800 = 2 days
+# 604800 = 1 week
+<filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
