@@ -16,12 +16,12 @@ require_once 'header.php';
 
 <div class="scroller">
     <div class="tour">
-        <span class="visit">Visit <br/>
+        <!-- <span class="visit">Visit <br/>
         Bordentown City</span>
         <span class="burgGrey">
             Take The Self Guided Tour
         </span><br/>
-        <img src="images/tour-arrow.png" alt="take the tour"/>
+        <img src="images/tour-arrow.png" alt="take the tour"/> -->
     </div>
     <div class="scrImgs">
        <div class="scrImg1" style="background: url(images/scroller/townhall.jpg) center center no-repeat;"></div>
@@ -71,21 +71,21 @@ require_once 'header.php';
                    <div class="borderBox home-categories">
                        <div class="shops-cat">
                            <a href="shopping.php" title="Shopping">
-                           <img src="images/home-shopping.jpg" alt="Shopping" title="Shopping"/>
+                           <img src="images/ShoppingImage.png" alt="Shopping" title="Shopping"/>
                            <p><strong>Downtown Bordentown City</strong> offers a wide variety of specialty shops, each featuring it's own line of gifts, antiques, collectibles, artwork, whimsey and d&eacute;cor. Consignments in vintage clothes and children's toys and apparel also abound. Local artists and musicians contribute to the mix, making Bordentown a must for personal gifts or complementing home furnishings.<span class="large"> &raquo; </span></p>
                            </a>
                            <a href="shopping.php" class="button">SHOPPING</a>
                        </div>
                        <div class="dining-cat">
                            <a href="dining.php" title="Dining">
-                           <img src="images/home-dining.jpg" alt="Dining" title="Dining"/>
-                           <p><strong>Whatever your taste in food</strong>, you are sure to find it in one of Bordentown's Fine Restaurants or Eateries.  Full course meals to quick lunches, snacks and treats, all are served up with small town charm and grace.  Italian, Latin, Cosmopolitan, South American, Old World, elegant and casual: its all here and most with either “Spirits Served or BYOB”. <span class="large"> &raquo; </span></p>
+                           <img src="images/DIningImage.png" alt="Dining" title="Dining"/>
+                           <p><strong>Whatever your taste in food</strong>, you are sure to find it in one of Bordentown's Fine Restaurants or Eateries.  Full course meals to quick lunches, snacks and treats, all are served up with small town charm and grace.  Italian, Cosmopolitan, South American, Old World, elegant and casual: its all here and most with either “Spirits Served or BYOB”. <span class="large"> &raquo; </span></p>
                            </a>
                            <a href="dining.php" class="button">DINING</a>
                        </div>
                        <div class="services-cat">
                            <a href="services.php" title="Services"> 
-                           <img src="images/home-services.jpg" alt="Services" title="Services"/>
+                           <img src="images/ServicesImage.png" alt="Services" title="Services"/>
                            <p><strong>From Grooming to Wellness,</strong> to Finances and Law, Healing to Final Rest, Banking to Photography, Dentistry to Office Supplies, Martial Arts to Repair Services:  
 If you are in need of professional services, chances are, you can find what you need here in the “Little City With A Lot of Charm”. <span class="large"> &raquo; </span></p>
                            </a>

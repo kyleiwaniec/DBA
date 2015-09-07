@@ -46,7 +46,7 @@ $(function() {
     }).trigger("resize");
 
     $(".tour").click(function(){
-        location.href = "guided-tour.php";
+        //location.href = "guided-tour.php";
     });  
    
    

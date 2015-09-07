@@ -13,10 +13,10 @@ RewriteRule redirect-form.php http://downtownbordentown.com/admin/add-new-form.p
 
 
 
-suPHP_ConfigPath /home2/downtoz0/public_html/cgi-bin/
-#<IfModule mod_php5.c>
-#php_value include_path ".:/home2/downtoz0/public_html/includes"
-#</IfModule>
+#suPHP_ConfigPath /Users/koza/Documents/workspace/DBA/cgi-bin/
+<IfModule mod_php5.c>
+php_value include_path ".:/Users/koza/Documents/workspace/DBA/includes"
+</IfModule>
 
 # ----------------------------------------------------------------------
 # Proper MIME type for all files

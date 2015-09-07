@@ -808,13 +808,14 @@ input[type="checkbox"] {
     background-color: rgba(60, 4, 16, .75);
     text-align: center;
     
-    cursor:pointer;
+    /*cursor:pointer;*/
     display:none;
+    background: url(../images/LittleCityImage.png) no-repeat center;
 }
-.tour:hover{
+/*.tour:hover{
     background-color: #BD1E3F;
     outline:1px solid lightgrey;
-}
+}*/
 .ie .tour{
     background-image:url(../images/red-overlay-px.png);
 }

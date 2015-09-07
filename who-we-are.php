@@ -16,12 +16,6 @@ require_once 'header.php';
         <div class="borderBox">
             <span class="title">OUR SPONSORS</span>
         <hr/>
-        <img src="images/ocean-spray-logo.jpg" alt="Ocean Spray"/><br/>
-        <p class="small">
-            Bordentown is home to the largest facility in the Ocean Spray Cranberries family.</p>
-        <br/>
-        <hr/>
-        <br/>
         <p class="advertise">Advertise With Us</p>
         <p class="small">
             To find out about sponsorship opportunities and to advertise on our website, please visit our <a href="advertising.php">Advertising Information Page.</a>
@@ -49,10 +43,10 @@ require_once 'header.php';
            </div>  
            <p><span class="dropcap">T</span>he Downtown Bordentown Association is comprised of some 70 members with businesses located in Bordentown City, New Jersey. The membership includes retail merchants, restaurateurs, and professional service providers. Amoung the current membership are art galleries, bookshops, antiques shops, a vintage record shop that also carries new releases, shops that specialize in gifts and accessories; our several restaurants offer a variety of cuisine from around the world; our professional members include dentists, accountants, physicians, and attorneys.
 
-           </p><p><img src="images/brochures.jpg" class="fltrt" alt=""/>
+           </p><p><img src="images/BrochureCoverv2.png" class="fltrt" alt=""/>
                The D.B.A.'s mission is to promote Bordentown City as a great place to live, work , dine, shop and have fun&mdash;all within a peaceful, historic setting. We have made great strides in attaining this goal through the use of cooperative newspaper, magazine and electronic media advertizing, and an internet web page. We also sponsor the annual, Iris Festival,, Cranberry Festival and several promotional events that bring visitors to our <em>"little city with a lot of charm"</em> throughout the year.
 
-</p><p>Last year the D.B.A. published 25,000 brochures inviting tourists and visitors to come to Bordentown City, learn our history and see all that we have to offer in the way of shopping, dining and services. These brochures are distributed throughout town, in all local hotels and motels, in real estate offices, in information centers on the NJ Turnpike and other tourist areas outside the City ranging as far as New York, Philadelphia, and the Delaware Memorial Bridge.
+</p><p>Last year the D.B.A. published 30,000 brochures inviting tourists and visitors to come to Bordentown City, learn our history and see all that we have to offer in the way of shopping, dining and services. These brochures are distributed throughout town, in all local hotels and motels, in real estate offices, in information centers on the NJ Turnpike and other tourist areas outside the City ranging as far as New York, Philadelphia, and the Delaware Memorial Bridge.
 
 </p><p>The business district is concentrated on Farnsworth Ave, Crosswicks Street, Walnut Steet, all in the heart of the historic town&mdash;and all within walking distance. Bordentown City is conveniently located right off the NJ Turnpike Exit 7, Routes 295, Route 130 and 206. It is also on the New Jersey Transit River Line <a href="http://www.RiverLine.com" title="River Line">www.RiverLine.com</a> with direct connection to Trenton and the Delaware River towns.</p>
        </p>
@@ -62,9 +56,9 @@ require_once 'header.php';
        <ul>
            <li>Tom Moyer, <em>President</em></li>
            <li>Santiago Orosco, <em>Vice President</em></li>
-           <li>Fran Illuminati, <em>Treasurer</em></li>
+           <li>Mary Barnes, <em>Treasurer</em></li>
            <li>Rebecca Moslowski, <em>Secretary</em></li>
-           <li>Mary Barnes, <em>Director</em></li>
+           <li>CJ Mugavero, <em>Director</em></li>
            <li>Earl Hall, <em>Director</em></li>
            <li>Sandra Scotto, <em>Director</em></li>
        </ul>

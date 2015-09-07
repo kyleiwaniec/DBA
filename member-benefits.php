@@ -43,8 +43,8 @@ require_once 'header.php';
                     <strong>Our members enjoy the benefits of: </strong>   
                     </p>
                 <ul class="list">
-                    <li>Collective marketing efforts both via print and electronic media</li>
-                    <li>Inclusion in the annual “Historic Bordentown City” information brochure, some 25,000 of which are distributed not only locally but statewide</li>
+                    <li>Collective marketing efforts via print, radio and digital media</li>
+                    <li>Inclusion in the annual “Historic Bordentown City” information brochure, some 30,000 of which are distributed not only locally but statewide</li>
                     <li>Inclusion on the Association’s website with the ability to link to individual businesses sites</li>
                     <li>Cooperative cross-promotion with other businesses</li>
                     <li>Inclusion in special promotions and events</li>

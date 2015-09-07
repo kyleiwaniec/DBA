@@ -14,10 +14,10 @@ define('REMEMBER', 60*60*24*7); // ONE WEEK IN SECONDS
 session_start();
 
 // CONNECTION AND SELECTION VARIABLES FOR THE DATABASE
-$db_host = "localhost"; // PROBABLY THIS IS OK
+$db_host = "127.0.0.1"; // PROBABLY THIS IS OK
 $db_name = "downtoz0_cms";        // GET THESE FROM YOUR HOSTING COMPANY
-$db_user = "downtoz0_admin";
-$db_word = "admin@123";
+$db_user = "iq4user";
+$db_word = "iq4pass";
 
 // OPEN A CONNECTION TO THE DATA BASE SERVER
 // MAN PAGE: http://us2.php.net/manual/en/function.mysql-connect.php

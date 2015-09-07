@@ -5,15 +5,14 @@
 
 // database stuff
 
-$host = "localhost";
+$host = "127.0.0.1";
+// $user = "downtoz0_admin";
+// $password = "admin@123";
+// $databaseName = "downtoz0_cms";
 
-$user = "downtoz0_admin";
-
-$password = "admin@123";
-
+$user = "iq4user";
+$password = "iq4pass";
 $databaseName = "downtoz0_cms";
-  
-  
   
   
 
@@ -33,7 +32,7 @@ function connect(){
 	 
   
 
-  $link = mysql_connect ($host, $user, $password) or die ('I cannot connect to the database because: ' . mysql_error());
+$link = mysql_connect ($host, $user, $password) or die ('I cannot connect to the database because: ' . mysql_error());
 
   mysql_select_db ($databaseName, $link); 
 }
