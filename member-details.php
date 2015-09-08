@@ -19,12 +19,6 @@ require_once 'header.php';
         <div class="borderBox">
             <span class="title">OUR SPONSORS</span>
         <hr/>
-        <img src="images/ocean-spray-logo.jpg" alt="Ocean Spray"/><br/>
-        <p>
-            Bordentown is home to the largest facility in the Ocean Spray Cranberries family.</p>
-        <br/>
-        <hr/>
-        <br/>
         <p class="advertise">Advertise With Us</a>
         <p>
             To find out about sponsorship opportunities and to advertise on our website, please visit our <a href="advertising.php">Advertising Information Page.</a>
